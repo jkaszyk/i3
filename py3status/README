@@ -1,0 +1,7 @@
+1. Install py3status (package manager)
+2. Clone this repository
+3. Change your i3bar to use py3status in your i3 config:
+	status_command py3status --include PY3STATUS_DIR
+	where PY3STATUS_DIR is *this* directory
+4. Add your chosen modules to i3status.conf file (normally in /etc/i3status.conf) 
+	e.g.: order += "article50"
