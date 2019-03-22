@@ -5,3 +5,6 @@
 	where PY3STATUS_DIR is *this* directory
 4. Add your chosen modules to i3status.conf file (normally in /etc/i3status.conf) 
 	e.g.: order += "article50"
+
+
+Write your own modules! https://py3status.readthedocs.io/en/latest/writing_modules.html
